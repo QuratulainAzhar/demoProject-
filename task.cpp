@@ -2,6 +2,9 @@
 using namespace std;
 int main()
 { 
-  cout << 3+6;
+  int a,b;
+  cout<<"Enter two numbers:";
+  cin>>a>>b;
+  cout << a+b;
   return 0;
 }
